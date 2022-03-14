@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import logo from "../images/logo.png";
+import Koffie from "../images/koffie.png";
+import "../Css/ListStyle.css";
+
 
 export default function List() {
     return (
@@ -7,14 +9,13 @@ export default function List() {
             <header>
                 <div className="container container-flex">
                     <div className="logoContainer">
-                        <img src={logo} alt="logo" className="logo" />
+                        <img src={Koffie} alt="koffie-cup" className="logo" />
                     </div>
                     <nav>
                         <div className="list">
-                            <Link
+                            <Link 
                                 to="/"
                                 className="listItem"
-                                activeClasName="activeItem"
                             >
                                 Home
                             </Link>
@@ -22,7 +23,6 @@ export default function List() {
                             <Link
                                 to="/about"
                                 className="listItem"
-                                activeClasName="activeItem"
                             >
                                 About
                             </Link>
@@ -30,15 +30,13 @@ export default function List() {
                             <Link
                                 to="/services"
                                 className="listItem"
-                                activeClasName="activeItem"
                             >
                                 Services
                             </Link>
 
                             <Link
                                 to="/contact"
-                                className="listItem"
-                                activeClasName="activeItem"
+                                className="listItem"  
                             >
                                 Contact
                             </Link>
@@ -46,7 +44,6 @@ export default function List() {
                             <Link
                                 to="/policy"
                                 className="listItem"
-                                activeClasName="activeItem"
                             >
                                 Policy
                             </Link>
