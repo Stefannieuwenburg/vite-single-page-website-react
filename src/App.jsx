@@ -1,12 +1,15 @@
-
+import { Switch, Route } from 'react-router-dom'
+import Home from './component/Home'
 import './App.css'
 
 export default function App() {
   
   return (
-    <div className="App">
-      <h1>hallo</h1>
-    </div>
+    <>
+      <Switch>
+      <Route path="/" component={Home}/>
+      </Switch>
+    </>
   )
 }
 
