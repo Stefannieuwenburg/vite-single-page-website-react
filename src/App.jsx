@@ -5,12 +5,14 @@ import Services from './component/Services'
 import Contact from './component/Contact'
 import Policy from './component/Policy'
 import Errorpage from './component/Errorpage'
+import List from './component/List'
 
 
 export default function App() {
   
   return (
       <>
+          <List />
           <Routes>
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
