@@ -4,6 +4,8 @@
     background-color: black;
     justify-content:space-around;
     align-items: center;
+    width: 100vw;
+    height: 90vh;
 }
 
 .contentBox{

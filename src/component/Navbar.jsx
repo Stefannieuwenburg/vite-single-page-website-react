@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
         <>
             <header>
-                <div className="container container-flex">
+                <div className="container containerFlex">
                     <div className="logoContainer">
                         <img src={Koffie} alt="koffie-cup" className="logo" />
                     </div>
