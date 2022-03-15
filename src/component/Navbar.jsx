@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import Koffie from "../images/koffie.png";
-import "../Css/ListStyle.css";
+import "../Css/NavbarStyle.css";
 
 
-export default function List() {
+export default function NavBar() {
     return (
         <>
             <header>

@@ -5,14 +5,15 @@ import Services from './component/Services'
 import Contact from './component/Contact'
 import Policy from './component/Policy'
 import Errorpage from './component/Errorpage'
-import List from './component/List'
+import Navbar from './component/Navbar'
+import Footer from './component/Footer'
 
 
 export default function App() {
   
   return (
       <>
-          <List />
+          <Navbar />
           <Routes>
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
@@ -21,6 +22,7 @@ export default function App() {
               <Route path="policy" element={<Policy />} />
               <Route path="*" element={<Errorpage />} />
           </Routes>
+          <Footer/>
       </>
   );
 }
