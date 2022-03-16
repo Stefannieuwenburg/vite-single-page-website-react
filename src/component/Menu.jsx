@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
-import map from "../images/map.jpg";
-import "../Css/ContactStyle.css";
+import menu from "../images/menu.jpg";
+import "../Css/MenuStyle.css";
 
-export default function Contact() {
+export default function Menu() {
     return (
         <>
             <div className="mainSection">
                 <div className="contentBox">
-                    <h1>contact info</h1>
+                    <h1>Menu </h1>
                     <p>
-                        Adres Coffee to go : Zeedijk 6,
-                        1108 AM Amsterdam. Telefoon: 0819-347069. E-mail:
-                        coffeetogo@info.nl
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Voluptatem, repudiandae excepturi maxime sunt,
+                        voluptatum non animi, voluptatibus impedit deleniti
+                        cupiditate sint ipsum et blanditiis asperiores deserunt
+                        provident! Ratione, fuga voluptatem.
                     </p>
                     <div className="btnBox">
                         <div className="btn">
@@ -22,7 +24,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="imgContainer">
-                    <img src={map} alt="map" />
+                    <img src={menu} alt="menu" />
                 </div>
             </div>
         </>

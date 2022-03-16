@@ -28,10 +28,10 @@ export default function NavBar() {
                             </Link>
 
                             <Link
-                                to="/services"
+                                to="/menu"
                                 className="listItem"
                             >
-                                Services
+                                Menu
                             </Link>
 
                             <Link
@@ -39,13 +39,6 @@ export default function NavBar() {
                                 className="listItem"  
                             >
                                 Contact
-                            </Link>
-
-                            <Link
-                                to="/policy"
-                                className="listItem"
-                            >
-                                Policy
                             </Link>
                         </div>
                     </nav>

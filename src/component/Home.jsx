@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <div className="mainSection">
                 <div className="contentBox">
-                    <h1>black koffie</h1>
+                    <h1>coffee to go </h1>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Voluptatem, repudiandae excepturi maxime sunt,

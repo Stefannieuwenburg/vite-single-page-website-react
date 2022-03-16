@@ -1,4 +1,3 @@
-
 .mainSection{
     display:flex;
     background-color: black;
@@ -17,11 +16,12 @@
 .contentBox h1{
 font-size:2.5rem;
 color:white;
+text-align: center;
 font-family:'Poppins', sans-serif ;
 }
 
 .contentBox p{
-    color:white;
+    color:#fff;
     font-size:1.5rem;
     margin:1em 0;
     font-family:'Poppins', sans-serif ;
@@ -36,7 +36,7 @@ font-family:'Poppins', sans-serif ;
 .btn{
   background: #d18904;
   color: #fff;
-  border: 5px;
+  border: 0;
   border-radius: 50px;
   cursor: pointer;
 }
@@ -46,13 +46,52 @@ font-family:'Poppins', sans-serif ;
    font-size: 1.2rem;
    padding:.5em 1.5em;
    text-decoration: none;
-   color: #301934;
+   color: black;
 }
 .imgContainer{
     width: 50%;
+    margin-bottom:3em;
 }
 .imgContainer img{
     border-radius: 30px;
-    width: 90%;
+    width: 60%;
+    margin: 0 auto;
+    display:block;
+}
+/* media queries */
+@media screen and (max-width: 900px) {
+ html{
+     font-size:14px;
+ }   
+}
+@media screen and (max-width: 768px) {
+ html{
+     font-size:14px;
+ } 
+  .mainSection{
+    flex-direction: column;
+    margin-top:1em;
+    
+} 
+.contentBox{
+    width:90%;
+    margin: 0 auto;
+}
+.contentBox h1{
+font-size:2rem;
 
+
+}
+.contentBox p{
+    font-size:1.4rem;
+}
+.imgContainer{
+    width: 70%;
+    margin-bottom:2em;
+}
+}
+@media screen and (max-width: 400px) {
+.imgContainer{
+    width: 60%;
+}
 }

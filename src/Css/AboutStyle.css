@@ -50,11 +50,11 @@ font-family:'Poppins', sans-serif ;
    color: black;
 }
 .imgContainer{
-    width: 60%;
+    width: 50%;
 }
 .imgContainer img{
     border-radius: 30px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display:block;
 }
@@ -80,17 +80,16 @@ font-family:'Poppins', sans-serif ;
 .contentBox h1{
 font-size:2rem;
 
-
 }
 .contentBox p{
     font-size:1.4rem;
 }
 .imgContainer{
-    width: 90%;
+    width: 80%;
 }
 }
 @media screen and (max-width: 400px) {
 .imgContainer{
-    width: 70%;
+    width: 60%;
 }
 }
